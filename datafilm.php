@@ -29,7 +29,7 @@ $result = mysqli_query($koneksi, "SELECT * from data_film");
         <?php while ($row = mysqli_fetch_assoc($result)) : ?>
         <tr>
             <td><?= $row['id'] ?></td>
-            <td><?= $row['judul'] ?></td>
+            <td><?= $row['Judul'] ?></td>
             <td><?= $row['kode_film'] ?></td>
             <td><?= $row['jenis_film'] ?></td>
 			<td><?= $row['kriteria_film'] ?></td>
